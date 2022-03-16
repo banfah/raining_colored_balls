@@ -7,7 +7,6 @@ class Circle {
     this.body = Bodies.circle(x, y, r, options);
     this.r = r;
     this.color = color(random(255), random(255), random(255));
-    //World.add(engine.world, this.body);
   }
 
   isOffScreen() {
